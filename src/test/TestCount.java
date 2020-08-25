@@ -9,8 +9,8 @@ public class TestCount {
 	@Test
 	public void test() {
 		JUnitTesting test = new JUnitTesting();
-		int out = test.counta("Provaa");
-		assertEquals(2, out);
+		int out = test.counta("Prova");
+		assertEquals(1, out);
 	}
 
 }
