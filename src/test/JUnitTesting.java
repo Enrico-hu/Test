@@ -19,4 +19,13 @@ public class JUnitTesting {
 	public int sum(int x, int y){
 		return x+y;
 	}
+	
+	public String divide(int x, int y){
+
+		if(y!=0) {
+			return String.valueOf(x/y);
+		} else {
+			return "Non è possibile dividere per 0!";
+		}
+	}
 }
