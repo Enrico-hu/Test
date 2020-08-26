@@ -15,4 +15,8 @@ public class JUnitTesting {
 		
 		return count;
 	}
+	
+	public int sum(int x, int y){
+		return x+y;
+	}
 }
